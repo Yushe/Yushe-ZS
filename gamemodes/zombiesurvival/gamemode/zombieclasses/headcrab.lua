@@ -10,7 +10,7 @@ CLASS.Unlocked = true
 
 CLASS.SWEP = "weapon_zs_headcrab"
 
-CLASS.Health = 40
+CLASS.Health = 25
 CLASS.Speed = 160
 CLASS.JumpPower = 100
 
