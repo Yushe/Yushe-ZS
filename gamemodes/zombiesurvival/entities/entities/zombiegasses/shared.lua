@@ -1,3 +1,9 @@
 ENT.Type = "anim"
 
-AccessorFuncDT(ENT, "Radius", "Float", 0)
+function ENT:SetRadius(fRadius)
+	self:SetNetworkedFloat("radius", fRadius)
+end
+
+function ENT:GetRadius()
+	return self:GetNetworkedFloat("radius", 250)
+end
