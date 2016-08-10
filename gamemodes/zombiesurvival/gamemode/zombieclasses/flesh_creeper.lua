@@ -4,8 +4,8 @@ CLASS.Description = "description_flesh_creeper"
 CLASS.Help = "controls_flesh_creeper"
 
 CLASS.Wave = 0
+CLASS.Unlocked = false
 CLASS.Hidden = true
-CLASS.Unlocked = true
 CLASS.Health = 100
 CLASS.SWEP = "weapon_zs_fleshcreeper"
 CLASS.Model = Model("models/antlion.mdl")
