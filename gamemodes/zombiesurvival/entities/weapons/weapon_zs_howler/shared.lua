@@ -15,9 +15,9 @@ SWEP.ViewModel = Model("models/Weapons/v_zombiearms.mdl")
 SWEP.WorldModel = "models/weapons/w_crowbar.mdl"
 
 SWEP.MeleeDelay = 0.74
-SWEP.MeleeReach = 48
+SWEP.MeleeReach = 38
 SWEP.MeleeSize = 1.5
-SWEP.MeleeDamage = 30
+SWEP.MeleeDamage = 15
 SWEP.MeleeForceScale = 1
 SWEP.MeleeDamageType = DMG_SLASH
 
@@ -31,7 +31,7 @@ SWEP.Primary.Ammo = "none"
 SWEP.Primary.Duration = 2
 SWEP.Primary.Delay = 0.6
 SWEP.Primary.Reach = 300
-SWEP.Primary.Damage = 10
+SWEP.Primary.Damage = 5
 
 SWEP.Secondary.Reach = 300
 SWEP.Secondary.Duration = 2
