@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "weapon_zs_hate"
 
 SWEP.ZombieOnly = true
-SWEP.MeleeDamage = 90
+SWEP.MeleeDamage = 50
 SWEP.MeleeDelay = 1.5
 SWEP.MeleeAnimationDelay = 0.35
 SWEP.Primary.Delay = 1.5
