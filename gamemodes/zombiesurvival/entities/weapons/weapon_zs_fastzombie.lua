@@ -11,13 +11,13 @@ end
 
 SWEP.MeleeDelay = 0
 SWEP.MeleeReach = 42
-SWEP.MeleeDamage = 5
+SWEP.MeleeDamage = 3
 SWEP.MeleeForceScale = 0.1
 SWEP.MeleeSize = 1.5
 SWEP.MeleeDamageType = DMG_SLASH
 SWEP.Primary.Delay = 0.4
 
-SWEP.PounceDamage = 10
+SWEP.PounceDamage = 1
 SWEP.PounceDamageType = DMG_IMPACT
 SWEP.PounceReach = 32
 SWEP.PounceSize = 16
@@ -101,7 +101,7 @@ function SWEP:Think()
 				else
 					local ent = trace.Entity
 					if ent and ent:IsValid() then
-						self:MeleeHit(ent, trace, damage, 10)
+						self:MeleeHit(ent, trace, damage, 1)
 					end
 				end
 			end
